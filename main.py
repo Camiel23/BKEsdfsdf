@@ -68,9 +68,9 @@ while play == True:
       trainings=100,
       validations=1000)
 
-print("Opnieuw? (JA/NEE)")
-opnieuw = input()
-if input == 'JA' or input == 'ja' or input =='Ja':
-  play = True
-if input == 'NEE' or input == 'nee' or input == 'Nee':
-  play = False
+  print("Opnieuw? (JA/NEE)")
+  opnieuw = input()
+  if opnieuw == 'JA' or  opnieuw== 'ja' or opnieuw=='Ja':
+    play = True
+  if opnieuw == 'NEE' or opnieuw == 'nee' or opnieuw == 'Nee':
+    play = False
